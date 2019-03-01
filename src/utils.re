@@ -1,3 +1,4 @@
+[%bs.raw {|require("isomorphic-fetch")|}]
 let makeUrl = (baseUrl, args) => {
   let rec join = (list) =>
     switch list {
